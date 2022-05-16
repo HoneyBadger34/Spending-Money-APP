@@ -36,6 +36,7 @@ const Header = ({money, total, setBasket}) => {
         <div>
           <button className='bg-sellRed w-20 h-10 rounded' onClick={resetBasket}>Sell All</button>
         </div>
+        <p className='text-lg text-purple-600'>Ali Selam olsun kardeşim!</p>
     </div>
   )
 }
